@@ -1,24 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--Candice Black 7/13/23-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
     <title>Contact Us</title>
 </head>
-<body>
-    <div class="top">
-        <h1>Howard's Lakeside General Store</h1>
-        <img src="lakefishing.jpg" alt="">
-        <nav class="main-nav">
-            <ul>
-                <li><a href="index.htm">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="bait.html">Bait</a></li>
-            </ul>
 
-        </nav>
+<body>
+    <div class="wrapper">
+        <div class="top">
+
+            <h1>Howard's Lakeside General Store</h1>
+            <img src="lakefishing.jpg" alt="">
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.htm">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="bait.html">Bait</a></li>
+                </ul>
+
+            </nav>
+        </div>
+        <div class="column">
+            <h1>Contact us</h1>
+            <div class="info2">
+                
+                <div><h2>Email us at:</h2>
+                <a href="mailto:HowardsLakeside@gmail.com">HowardsLakeside@gmail.com</a></div>
+                <div><h2>Call us at:</h2>
+                <a href="tel:+19375051037">(937) 505-1037</a></div>
+                <div><h2>Stop by in-person:</h2>
+                <p>1919 Croft Rd
+                    <br> Springfield, Ohio 45503
+                </p></div>
+            </div>
+            <div class="col2">
+                <form >
+                    <fieldset>
+                        <legend>Send us a message</legend>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+
+                        <label for="email"> Email:</label><br>
+                        <input type="email" id="email" name="mailto"><br>
+
+                        Message: <br>
+                        <textarea name="message" rows="10" cols="30">
+                        </textarea>
+                        
+                        <input type="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </div>
+        </div>
     </div>
-    <h1>Check out out Facebook page for daily updates on fishing conditions</h1>
+    <footer>Lakeside &copy; 2023</footer>
 </body>
+
 </html>
