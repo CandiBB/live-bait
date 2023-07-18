@@ -96,3 +96,6 @@ li a:hover {
     grid-template-columns: 1fr 2fr;
     justify-content: space-evenly;
 }
+p{
+    text-align: center;
+}
